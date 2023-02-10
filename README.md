@@ -11,25 +11,6 @@
   https://docs.google.com/document/d/17YDV7t57pZ85mQmOJNlsC8A8yKnT_Qs7Ie4sjMxX9nk/edit
   
 ### List Of Materials
-  ###### Acrylic Sheets
-  ##### ABS Plastic
-  Solder
-  Male-Male Wires
-  Button
-  220 Ohm Resistor
-  Arduino Metro
-  ½” Standoffs
-  Prototyping Shield
-  Custom Built Wires
-  9V Battery Pack
-  AA Batteries
-  Mini Red LED
-  LED Holder
-  Toggle Switch
-  MG996R Metal Gear Servo
-  Servo Horn
-  #4-40 Socket Head Cap Screws
-  #4-40 Machine Screw Nuts
-  Electrical Tape
+  Acrylic Sheets, ABS Plastic, Solder, Male-Male Wires, Button, 220 Ohm Resistor, Arduino Metro, ½” Standoffs, Prototyping Shield, Custom Built Wires, 9V Battery Pack, AA Batteries, Mini Red LED, LED Holder,Toggle Switch, MG996R Metal Gear Servo, Servo Horn, #4-40 Socket Head Cap Screws, #4-40 Machine Screw Nuts, and Electrical Tape.
 
 ---
