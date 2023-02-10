@@ -1,13 +1,14 @@
 # Nick & Aaron's Robot Arm Project
   ## Descirption
-  For this project we must create a working robt arm that picks up or moves objects using code from an Arduino. Specifically we wanted to create a robot that could throw   a paper airplane consitently 15ft.
+  For this project we must create a working robot arm that picks up or moves objects using code from an Arduino. Specifically we wanted to create a robot that could        throw a paper airplane consitently 15ft.
 
 ## Table of Contents
 * [Link To Planning Document](#Link-To-Planning-Document)
 ---
 
 ## Link To Planning Document
-
+  https://docs.google.com/document/d/17YDV7t57pZ85mQmOJNlsC8A8yKnT_Qs7Ie4sjMxX9nk/edit
+  
 ### Description
   We were instructed to create a Swing Arm from a group of drawings and dimensions. After we must change dimensions of the swing arm in order to test whether or not it was constrained properly. This will help us prepare for your Onshape certification test.
 ### Evidence
