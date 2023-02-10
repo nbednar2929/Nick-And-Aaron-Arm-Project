@@ -4,21 +4,32 @@
 
 ## Table of Contents
 * [Link To Planning Document](#Link-To-Planning-Document)
+* [List Of Materials](#List-Of-Materials)
 ---
 
-## Link To Planning Document
+### Link To Planning Document
   https://docs.google.com/document/d/17YDV7t57pZ85mQmOJNlsC8A8yKnT_Qs7Ie4sjMxX9nk/edit
   
-### Description
-  We were instructed to create a Swing Arm from a group of drawings and dimensions. After we must change dimensions of the swing arm in order to test whether or not it was constrained properly. This will help us prepare for your Onshape certification test.
-### Evidence
-  Link To Onshape Document:
-  https://cvilleschools.onshape.com/documents/d88caac4d759f941e7cea4a8/w/bbba3462b73230afa103006c/e/8e2a22337fdf725841de39c3
-### Image
-  ![Swing Arm](https://user-images.githubusercontent.com/91289646/197609091-8bb3a64a-15cf-43cc-ba78-75564c65bb31.png)
-### Reflection
-    I struggled with this one at first because I was drawing on the wrong plane. 
-    I needed to create a sketch from the side and just extrude pieces at different depths rather than
-    create multiple shapes from multiple planes. I also needed to learn to constrain rough shapes before 
-    fully dimensioning geometry.
+### List Of Materials
+  Acrylic Sheets
+  ABS Plastic
+  Solder
+  Male-Male Wires
+  Button
+  220 Ohm Resistor
+  Arduino Metro
+  ½” Standoffs
+  Prototyping Shield
+  Custom Built Wires
+  9V Battery Pack
+  AA Batteries
+  Mini Red LED
+  LED Holder
+  Toggle Switch
+  MG996R Metal Gear Servo
+  Servo Horn
+  #4-40 Socket Head Cap Screws
+  #4-40 Machine Screw Nuts
+  Electrical Tape
+
 ---
