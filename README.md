@@ -3,13 +3,10 @@ Put a description for your project here!
 This repo is a template VS code project for CircuitPython projects that automatically uploads your code to the board when you press F5. Requires F5Anything extension.
 
 ## Table of Contents
-* [Table of Contents](#Table-of-Contents)
-* [Swing Arm](#Swing-Arm)
-* [Fly Copter](#Fly-Copter)
-* [Multi Part Design Practice](#Multi-Part-Design-Practice)
+* [Link To Planning Document](#Link-To-Planning-Document)
 ---
 
-## Swing Arm
+## Link To Planning Document
 
 ### Description
   We were instructed to create a Swing Arm from a group of drawings and dimensions. After we must change dimensions of the swing arm in order to test whether or not it was constrained properly. This will help us prepare for your Onshape certification test.
