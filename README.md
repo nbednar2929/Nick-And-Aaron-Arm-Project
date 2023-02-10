@@ -1,6 +1,6 @@
-# CPyProjectTemplate
-Put a description for your project here!
-This repo is a template VS code project for CircuitPython projects that automatically uploads your code to the board when you press F5. Requires F5Anything extension.
+# Nick & Aaron's Robot Arm Project
+  ## Descirption
+  For this project we must create a working robt arm that picks up or moves objects using code from an Arduino. Specifically we wanted to create a robot that could throw   a paper airplane consitently 15ft.
 
 ## Table of Contents
 * [Link To Planning Document](#Link-To-Planning-Document)
