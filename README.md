@@ -24,6 +24,7 @@
 ![Nick   Aaron Robot Arm Wiring Diagram](https://user-images.githubusercontent.com/91289646/218571097-c64b1c0c-d430-4d5d-9718-90f53add36ee.PNG)
 
 ### Code
+```python
 import time #importing files
 import board
 import digitalio
@@ -49,6 +50,7 @@ while True:
             for angle in range(0, 180, 5):  # 0 - 180 degrees, 5 degrees at a time forward.
                 my_servo.angle = angle
                 time.sleep(0.05)
+``` 
 
 ### CAD Renderings
 
