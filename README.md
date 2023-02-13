@@ -21,13 +21,34 @@
   Acrylic Sheets, ABS Plastic, Solder, Male-Male Wires, Button, 220 Ohm Resistor, Arduino Metro, ½” Standoffs, Prototyping Shield, Custom Built Wires, 9V Battery Pack, AA Batteries, Mini Red LED, LED Holder,Toggle Switch, MG996R Metal Gear Servo, Servo Horn, #4-40 Socket Head Cap Screws, #4-40 Machine Screw Nuts, and Electrical Tape.
 
 ### Wiring Diagram 
-img {
-  border: 5px solid #555;
-}
 ![Nick   Aaron Robot Arm Wiring Diagram](https://user-images.githubusercontent.com/91289646/218571097-c64b1c0c-d430-4d5d-9718-90f53add36ee.PNG)
 
 ### Code
+import time #importing files
+import board
+import digitalio
+import pwmio
+from adafruit_motor import servo
+from digitalio import DigitalInOut,Direction,Pull
+import simpleio
 
+pwm = pwmio.PWMOut(board.D10, duty_cycle=2 ** 20, frequency=40) # create a PWMOut object on Pin 9.
+
+my_servo = servo.Servo(pwm) # Create a servo object, my_servo.
+
+btn = DigitalInOut(board.D8) #create button 
+btn.direction = Direction.INPUT #identify button  direction
+btn.pull = Pull.UP #pull up button 
+
+switch = DigitalInOut(board.D12) #create switch
+switch.direction = Direction.INPUT #identify button direciton
+
+while True:
+    if switch.value: #if switch is on
+        if btn.value: #if button being pressed
+            for angle in range(0, 180, 5):  # 0 - 180 degrees, 5 degrees at a time forward.
+                my_servo.angle = angle
+                time.sleep(0.05)
 
 ### CAD Renderings
 
