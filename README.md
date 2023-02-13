@@ -21,10 +21,10 @@
   Acrylic Sheets, ABS Plastic, Solder, Male-Male Wires, Button, 220 Ohm Resistor, Arduino Metro, ½” Standoffs, Prototyping Shield, Custom Built Wires, 9V Battery Pack, AA Batteries, Mini Red LED, LED Holder,Toggle Switch, MG996R Metal Gear Servo, Servo Horn, #4-40 Socket Head Cap Screws, #4-40 Machine Screw Nuts, and Electrical Tape.
 
 ### Wiring Diagram 
-![Nick   Aaron Robot Arm Wiring Diagram](https://user-images.githubusercontent.com/91289646/218571097-c64b1c0c-d430-4d5d-9718-90f53add36ee.PNG){
-  border: 5px solid #555; 
-  }
-
+img {
+  border: 5px solid #555;
+}
+![Nick   Aaron Robot Arm Wiring Diagram](https://user-images.githubusercontent.com/91289646/218571097-c64b1c0c-d430-4d5d-9718-90f53add36ee.PNG)
 
 ### Code
 
