@@ -22,7 +22,8 @@
 
 ### Wiring Diagram 
 ![Nick   Aaron Robot Arm Wiring Diagram](https://user-images.githubusercontent.com/91289646/218571097-c64b1c0c-d430-4d5d-9718-90f53add36ee.PNG){
-  border: 5px solid #555; }
+  border: 5px solid #555; 
+  }
 
 
 ### Code
