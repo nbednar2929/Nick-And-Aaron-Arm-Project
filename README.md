@@ -75,8 +75,10 @@ while True:
 
 ### Problems and Issues
 #### CAD Issues
+The majority of our issues for this project related to CAD given that was what we spent 90% of our time on. Because we were both working on the same CAD document but in different part studios, at times we would make changed and fail to communicate that to the other resulting in possible miss measurments. We learned this soon into our project and began focussing on proper communication between one another. We put our trust in public onshape documents that had real world objects we could use the dimensions of to quicken our CAD process. At times these public models had incorrect units leading to our own CAD models having measurment issues. As of right now we still don't know of a way to test the legitimacy of Onshape documents, although I'm sure we could take rough measurements of these real world items and compare them to the dimensions of the online models.
 
 #### Code Issues
+The majority of our code issues came down to a lack of time to work on them after all the CAD problems were solved. We didn't allot enough time to code as we thought we needed meaning we couldn't spent our time writing functional code and using online sources to aid in such a process.
 
 ### Obituary
 ---
