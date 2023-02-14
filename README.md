@@ -56,7 +56,9 @@ while True:
 
 
 ### Finished Product
-![Screenshot 2023-02-14 10 20 14 AM](https://user-images.githubusercontent.com/91289646/218780479-2df16a67-2c3b-427f-a2b0-c2ed91c32739.png)
+<img src=![Screenshot 2023-02-14 10 20 14 AM](https://user-images.githubusercontent.com/91289646/218780479-2df16a67-2c3b-427f-a2b0-c2ed91c32739.png)
+     width="400" 
+     height="500" />
 ![Screenshot 2023-02-14 10 21 17 AM](https://user-images.githubusercontent.com/91289646/218780777-2d684f8b-5388-4154-8460-23c26740e8b0.png)
 
 ### Project Schedule
