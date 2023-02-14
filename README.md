@@ -81,4 +81,5 @@ The majority of our issues for this project related to CAD given that was what w
 The majority of our code issues came down to a lack of time to work on them after all the CAD problems were solved. We didn't allot enough time to code as we thought we needed meaning we couldn't spent our time writing functional code and using online sources to aid in such a process.
 
 ### Obituary
+If we were to pick this project back up we'd definitely create functioning code as well as create a fully assembled arm to go onto our robot. We'd integrate the claws that we made onto our arm as well. As to what we would've done differently, we would've given ourselves more time work on the code, made sure to do more research before using public onshape models, and finally we would ensure our communication was held to the utmost standard.
 ---
