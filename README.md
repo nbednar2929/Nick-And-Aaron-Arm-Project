@@ -47,7 +47,7 @@ switch.direction = Direction.INPUT #identify button direciton
 while True:
     if switch.value: #if switch is on
         if btn.value: #if button being pressed
-            for angle in range(0, 180, 5):  # 0 - 180 degrees, 5 degrees at a time forward.
+            for angle in range(0, 180, 5):  # 0 - 180 degrees, 5 degrees at a time forward. #turn 180 degrees 5 degrees at a time
                 my_servo.angle = angle
                 time.sleep(0.05)
 ``` 
@@ -74,7 +74,9 @@ while True:
 * <b>2/14 Week 12:</b> Complete documentation, Have base and main pillar and spinning code working and ready to go.
 
 ### Problems and Issues
+#### CAD Issues
 
+#### Code Issues
 
 ### Obituary
 ---
