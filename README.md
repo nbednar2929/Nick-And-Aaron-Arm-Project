@@ -21,7 +21,7 @@
   Acrylic Sheets, ABS Plastic, Solder, Male-Male Wires, Button, 220 Ohm Resistor, Arduino Metro, ½” Standoffs, Prototyping Shield, Custom Built Wires, 9V Battery Pack, AA Batteries, Mini Red LED, LED Holder,Toggle Switch, MG996R Metal Gear Servo, FS90R Continuous Servo, Servo Horn, #4-40 Socket Head Cap Screws, #4-40 Machine Screw Nuts, and Electrical Tape.
 
 ### Wiring Diagram 
-![Nick   Aaron Robot Arm Wiring Diagram](https://user-images.githubusercontent.com/91289646/218571097-c64b1c0c-d430-4d5d-9718-90f53add36ee.PNG)
+![Nick   Aaron Robot Arm Wiring Diagram](https://user-images.githubusercontent.com/91289646/223543930-9f5f0bc4-8fcd-4142-a8e3-4dcc5d505129.PNG)
 
 ### Code
 ```python
@@ -33,23 +33,28 @@ from adafruit_motor import servo
 from digitalio import DigitalInOut,Direction,Pull
 import simpleio
 
-pwm = pwmio.PWMOut(board.D10, duty_cycle=2 ** 20, frequency=40) # create a PWMOut object on Pin 9.
+# create a PWMOut object on Pin 9.
+pwm = pwmio.PWMOut(board.D10, duty_cycle=2 ** 20, frequency=40)
 
-my_servo = servo.Servo(pwm) # Create a servo object, my_servo.
+# Create a servo object, my_servo.
+my_servo = servo.Servo(pwm)
 
-btn = DigitalInOut(board.D8) #create button 
+btn = DigitalInOut(board.D13) #create button 
 btn.direction = Direction.INPUT #identify button  direction
-btn.pull = Pull.UP #pull up button 
+btn.pull = Pull.DOWN #pull up button 
 
-switch = DigitalInOut(board.D12) #create switch
-switch.direction = Direction.INPUT #identify button direciton
+
 
 while True:
-    if switch.value: #if switch is on
-        if btn.value: #if button being pressed
-            for angle in range(0, 180, 5):  # 0 - 180 degrees, 5 degrees at a time forward. #turn 180 degrees 5 degrees at a time
-                my_servo.angle = angle
-                time.sleep(0.05)
+    print('Switch1')
+    time.sleep(0.1)
+    if btn.value: #if button being pressed
+        print('Button')
+        for angle in range(0, 180, 5):  # 0 - 180 degrees, 5 degrees at a time forward.
+            my_servo.angle = angle
+            print(angle)
+        for angle in range(180, 0, -5):  # 0 - 180 degrees, 5 degrees at a time forward.
+            my_servo.angle = angle
 ``` 
 
 ### CAD Renderings
